@@ -8,7 +8,7 @@
 import Foundation
 
 struct SPC {
-    static let gitHubAccessToken = "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" // 在这里写上 Github 的access token。在 https://github.com/settings/tokens 申请你的access token。
+    static let gitHubAccessToken = "" // 在这里写上 Github 的access token。在 https://github.com/settings/tokens 申请你的access token。
     static let detailMinWidth: CGFloat = 550
     static let githubHost = "https://github.com/"
     static let pamphletIssueRepoName = "KwaiAppTeam/SwiftPamphletApp"
