@@ -16,14 +16,14 @@ struct SPSidebar: View {
                 NavigationLink {
                     RSSListView(vm: RSSVM())
                 } label: {
-                    SideBarLabel(title: "博客|资讯", imageName: "p21")
+                    SideBarLabel(title: "资讯", imageName: "newspaper.circle")
                         .badge(appVM.rssCountNotis)
                 }
                 
                 NavigationLink {
                     DataSortingListView()
                 } label: {
-                    SideBarLabel(title: "资料整理", imageName: "p11")
+                    SideBarLabel(title: "资料整理", imageName: "books.vertical.circle")
                 }
             }
             Section("Github") {
@@ -47,41 +47,41 @@ struct SPSidebar: View {
                 NavigationLink {
                     ExploreRepoListView(showAsGroup: true)
                 } label: {
-                    SideBarLabel(title: "探索库", imageName: "p24")
+                    SideBarLabel(title: "探索库", imageName: "globe.asia.australia")
                 } // end NavigationLink
                 
                 NavigationLink {
                     ExploreRepoListView(showAsGroup: true, isArchive: true)
                 } label: {
-                    SideBarLabel(title: "库存档", imageName: "p25")
+                    SideBarLabel(title: "库存档", imageName: "book.circle")
                 }
                 
             } // end Section
 
             Section("Swift指南") {
                 NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"guide-syntax"))) {
-                    SideBarLabel(title: "语法速查", imageName: "p23")
+                    SideBarLabel(title: "语法速查", imageName: "paperclip.circle")
                 }
 
                 NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"guide-features"))) {
-                    SideBarLabel(title: "特性", imageName: "p10")
+                    SideBarLabel(title: "特性", imageName: "circle.hexagongrid.circle")
                 }
 
                 NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"guide-subject"))) {
-                    SideBarLabel(title: "专题", imageName: "p12")
+                    SideBarLabel(title: "专题", imageName: "graduationcap.circle")
                 }
             }
             Section("库使用指南") {
                 NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"lib-SwiftUI"))) {
-                    SideBarLabel(title: "SwiftUI", imageName: "p3")
+                    SideBarLabel(title: "SwiftUI", imageName: "swift")
                 }
                 
                 NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"lib-Combine"))) {
-                    SideBarLabel(title: "Combine", imageName: "p19")
+                    SideBarLabel(title: "Combine", imageName: "line.3.horizontal.decrease.circle")
                 }
 
                 NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"lib-Concurrency"))) {
-                    SideBarLabel(title: "Concurrency", imageName: "p1")
+                    SideBarLabel(title: "Concurrency", imageName: "line.3.crossed.swirl.circle")
                 }
                 
             }

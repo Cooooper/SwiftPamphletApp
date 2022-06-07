@@ -29,7 +29,7 @@ struct RSSListView: View {
 
             }
         }
-        .navigationTitle("👹 博客与资讯")
+        .navigationTitle("􀫊 资讯")
         .onAppear {
             vm.showRssFeeds()
         }

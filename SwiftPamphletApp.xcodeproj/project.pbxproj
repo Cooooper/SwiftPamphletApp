@@ -378,7 +378,7 @@
 		08522BF127D1D49B005FF059 /* PlayCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayCanvas.swift; sourceTree = "<group>"; };
 		085BB77327D22FCA00E8F69A /* 172.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 172.md; sourceTree = "<group>"; };
 		085BB77527D22FE300E8F69A /* 173.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 173.md; sourceTree = "<group>"; };
-		086A5F032744E88E00FECE02 /* 戴铭的开发小册子.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "戴铭的开发小册子.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		086A5F032744E88E00FECE02 /* Swift Doc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Doc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		086A5F062744E88E00FECE02 /* SwiftPamphletAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPamphletAppApp.swift; sourceTree = "<group>"; };
 		086A5F0A2744E89100FECE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		086A5F0D2744E89100FECE02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -973,7 +973,7 @@
 		086A5F042744E88E00FECE02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				086A5F032744E88E00FECE02 /* 戴铭的开发小册子.app */,
+				086A5F032744E88E00FECE02 /* Swift Doc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1292,7 +1292,7 @@
 				0886703127FD77F90001EA81 /* Inject */,
 			);
 			productName = SwiftPamphletApp;
-			productReference = 086A5F032744E88E00FECE02 /* 戴铭的开发小册子.app */;
+			productReference = 086A5F032744E88E00FECE02 /* Swift Doc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1716,12 +1716,12 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SwiftPamphletApp/SwiftPamphletAppDebug.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftPamphletApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 962Z8PV35L;
+				DEVELOPMENT_TEAM = Y827B698K7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1739,8 +1739,9 @@
 					dynamic_lookup,
 				);
 				OTHER_SWIFT_FLAGS = "-profile-generate -profile-coverage-mapping";
-				PRODUCT_BUNDLE_IDENTIFIER = com.starming.SwiftPamphletAppByMing;
-				PRODUCT_NAME = "戴铭的开发小册子";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fliggy.swift;
+				PRODUCT_NAME = "Swift Doc";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPamphletApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1756,12 +1757,12 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SwiftPamphletApp/SwiftPamphletApp.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftPamphletApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 962Z8PV35L;
+				DEVELOPMENT_TEAM = Y827B698K7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1772,8 +1773,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 4.6;
-				PRODUCT_BUNDLE_IDENTIFIER = com.starming.SwiftPamphletAppByMing;
-				PRODUCT_NAME = "戴铭的开发小册子";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fliggy.swift;
+				PRODUCT_NAME = "Swift Doc";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPamphletApp-Bridging-Header.h";

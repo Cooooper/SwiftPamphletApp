@@ -82,10 +82,10 @@ struct SideBarLabel: View {
     var imageName: String
     var body: some View {
         HStack {
-            Image(imageName)
+            Image(systemName:imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 30)
+                .frame(width: 16)
             Text(title)
         }
     }

@@ -73,7 +73,7 @@ struct ExploreRepoListView: View {
 
             } // end ForEach
         } // end List
-        .navigationTitle(showAsGroup == false ? "🥷🏻 库动态" : "👾 探索库" )
+        .navigationTitle(showAsGroup == false ? "􀫊 库动态" : "􀫊 探索库" )
         .onAppear {
             if isArchive {
                 appVM.loadArchiveRepos()

@@ -22,7 +22,7 @@ struct PlayStackView: View {
         // Z 轴排
         ZStack(alignment: .top) {
             Image("logo")
-            Text("戴铭的开发小册子")
+            Text("Swift Doc")
                 .font(.title)
                 .bold()
                 .foregroundColor(.white)
