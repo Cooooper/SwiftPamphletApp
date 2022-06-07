@@ -32,13 +32,13 @@ struct SPSidebar: View {
                     NavigationLink {
                         ExploreRepoListView(showAsGroup: false)
                     } label: {
-                        SideBarLabel(title: "库动态", imageName: "p6")
+                        SideBarLabel(title: "库动态", imageName: "d.circle")
                             .badge(appVM.expCountNotis)
 
                     } // end NavigationLink
                     
                     NavigationLink(destination: ActiveDeveloperListView(vm: IssueVM(repoName: SPC.pamphletIssueRepoName, issueNumber: 30))) {
-                        SideBarLabel(title: "开发者", imageName: "p5")
+                        SideBarLabel(title: "开发者", imageName: "person.2.circle")
                             .badge(appVM.devsCountNotis)
                     } // end NavigationLink
 
